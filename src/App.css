@@ -1,0 +1,133 @@
+/* src/App.css */
+.container {
+  direction: rtl;
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-family: 'Assistant', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero {
+  /* height: 80vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #e2e8f0, #f8fafc);
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.heroTitle {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: #0f172a;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #475569;
+}
+
+.divider {
+  width: 90%;
+  height: 4px;
+  background-color: #d97706; /* צבע זהב-ענבר */
+  margin: 2rem auto;
+  border-radius: 2px;
+}
+
+/* Sections */
+.mainContent {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
+}
+
+.section {
+  margin-bottom: 8rem;
+  opacity: 0; /* יטופל על ידי Framer Motion */
+}
+
+.aboutFlex {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.textBlock {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* .imagePlaceholder {
+  width: 140px;
+  height: 140px;
+  height: auto;
+  background-color: #cbd5e1;
+  border-radius: 20px;
+  transform: rotate(3deg);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  padding: 15%
+} */
+
+.imagePlaceholder {
+  /* הגודל שביקשת (50% קטן יותר מהמקור) */
+  width: 150px; 
+  height: auto; 
+  
+  /* המרכוז הקריטי */
+  display: block;
+  margin: 2rem auto; /* ה-auto דואג למרכוז ימין ושמאל */
+  
+  /* עיצוב */
+  border-radius: 10px;
+  transform: rotate(3deg);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Book Idea Card */
+.ideaCard {
+  background: white;
+  padding: 3rem;
+  border-radius: 30px;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.25rem;
+  color: #334155;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+/* Call to Action */
+.ctaBox {
+  background-color: #fffbeb;
+  padding: 4rem 2rem;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.buyButton {
+  background-color: #0f172a;
+  color: white;
+  padding: 1.2rem 3rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+.buyButton:hover {
+  background-color: #334155;
+}
