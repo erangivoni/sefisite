@@ -15,7 +15,7 @@
   justify-content: center;
   background: linear-gradient(to bottom, #e2e8f0, #f8fafc);
   text-align: center;
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .heroTitle {
@@ -43,11 +43,11 @@
 .mainContent {
   max-width: 900px;
   margin: 0 auto;
-  padding: 5rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 .section {
-  margin-bottom: 5rem;
+  margin-bottom: 3.5rem;
   opacity: 0; /* יטופל על ידי Framer Motion */
 }
 
@@ -98,13 +98,6 @@
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
-.quote {
-  font-style: italic;
-  font-size: 1.25rem;
-  color: #334155;
-  max-width: 600px;
-  margin: 0 auto 2rem;
-}
 
 /* Call to Action */
 .ctaBox {
@@ -112,6 +105,13 @@
   padding: 4rem 2rem;
   border-radius: 50px;
   text-align: center;
+}
+
+.ctaTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #09aeb4;
 }
 
 .buyButton {
@@ -130,4 +130,11 @@
 
 .buyButton:hover {
   background-color: #334155;
+}
+
+.footer{
+  background-color: #284572;
+  color: #c2c7ce;
+  text-align: center;
+  padding: 1rem 1rem;
 }
