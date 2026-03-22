@@ -25,7 +25,7 @@ const App = () => {
       <header className="hero">
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1 }}>
           <h1 className="heroTitle">צהלה במרפאה</h1>
-          <p className="heroSubtitle">סיפור ילדים על יצירתיות, אומץ וחיוך</p>
+          <p className="heroSubtitle">סיפור ילדים על יצירתיות, חברות ואופטימיות</p>
           <div className="divider"></div>
         </motion.div>
       </header>
